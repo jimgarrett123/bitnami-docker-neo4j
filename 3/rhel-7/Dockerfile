@@ -20,7 +20,7 @@ ENV BITNAMI_APP_NAME="neo4j" \
     NEO4J_PASSWORD="bitnami" \
     PATH="/opt/bitnami/java/bin:/opt/bitnami/neo4j/bin:$PATH"
 
-EXPOSE 7474 7473 8756
+EXPOSE 7474 7473 8756 7687
 
 USER 1001
 ENTRYPOINT [ "/app-entrypoint.sh" ]
